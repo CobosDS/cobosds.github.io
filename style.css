@@ -55,19 +55,8 @@ header {
   
 
 }
-@media only screen and (max-width: 768px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 768 píxeles */
-  .botonera a {
-    font-size: 1.2em; /* Aumenta el tamaño de letra de los botones */
-    padding: 0.8em 1.6em; /* Aumenta el padding de los botones */
-  }
-  .texto-grande {
-    font-size: 2.5em; /* Aumenta el tamaño de letra del título principal */
-  }
-  .texto-pequeno {
-    font-size: 1.5em; /* Aumenta el tamaño de letra del subtítulo del título principal */
-  }
-}
+
+
 .botonera a:hover {
   background-color: #000000; /* Fondo negro al pasar el mouse */
   color: #FFC107; /* Texto blanco al pasar el mouse */
@@ -119,11 +108,11 @@ header {
 .title {
   background-color: black;
   color: White;
-  padding: 5px 10px;
+  padding: 1em 2em;
   margin-bottom: 10px;
   text-align: center;
   padding: 30px;
-  font-size: 25px;
+  
   border: 1px solid #FFC107;
   font-size: 2em;
 }
