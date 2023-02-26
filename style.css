@@ -43,10 +43,11 @@ header {
 
 .botonera a {
   display: block;
-  padding: 30px 40px;
+  
   color: #000000; /* Texto negro */
   text-decoration: none;
-  font-weight: bold;
+  padding: 1em 2em; /* Utiliza unidades relativas para el padding */
+  font-size: 1.2em;
   transition: background-color 0.2s ease;
   background-color: White; /* Fondo blanco */
   border: 2px solid #000000; /* Borde negro */
@@ -54,7 +55,19 @@ header {
   
 
 }
-
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho máximo de 768 píxeles */
+  .botonera a {
+    font-size: 1.2em; /* Aumenta el tamaño de letra de los botones */
+    padding: 0.8em 1.6em; /* Aumenta el padding de los botones */
+  }
+  .texto-grande {
+    font-size: 2.5em; /* Aumenta el tamaño de letra del título principal */
+  }
+  .texto-pequeno {
+    font-size: 1.5em; /* Aumenta el tamaño de letra del subtítulo del título principal */
+  }
+}
 .botonera a:hover {
   background-color: #000000; /* Fondo negro al pasar el mouse */
   color: #FFC107; /* Texto blanco al pasar el mouse */
@@ -65,8 +78,8 @@ header {
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-  margin-top: 130px;
-  margin-bottom: 130px
+ 
+  padding:100px
   
 }
 
