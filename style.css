@@ -119,15 +119,14 @@ header {
 }
 
 .title {
-  background-color: black;
-  color: White;
+  
   padding: 1em 2em;
   margin-bottom: 10px;
   text-align: center;
-  padding: 40px;
   
   
-  border: 1px solid #FFC107;
+  
+
   font-size: 2em;
 }
 
