@@ -49,11 +49,10 @@ header {
   color: #000000; /* Texto negro */
   text-decoration: none;
   padding: 1em 2em; /* Utiliza unidades relativas para el padding */
-  font-size: 1.2em;
   transition: background-color 0.2s ease;
   background-color: White; /* Fondo blanco */
   border: 2px solid #000000; /* Borde negro */
-  font-size: 1.5em;
+  font-size: 1.4em;
   
 
 }
