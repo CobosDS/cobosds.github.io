@@ -10,7 +10,7 @@ body {
     justify-content: space-evenly;
     display: flex;
     align-items:center;
-    border-bottom: 10px solid #b543e2;
+    border-bottom: 10px solid #9437eb;
 
   }
   
@@ -25,7 +25,7 @@ body {
   
   .texto-pequeno {
     font-size: 1.25em;
-    color: #bf52eb;
+    color: #9437eb;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -67,7 +67,7 @@ body {
   }
   nav ul li a:hover {
     
-    color: #bf52eb; /* Texto blanco al pasar el mouse */
+    color: #9437eb; /* Texto blanco al pasar el mouse */
   }
   
  
@@ -91,7 +91,7 @@ nav ul li ul li {
 }
 
 nav ul li ul li a:hover {
-  background-color: #bf52eb;
+  background-color: #9437eb;
   color: Black;
 }
 
@@ -107,11 +107,12 @@ nav ul li ul li a:hover {
     width: 100%;
     height: 600px;
     object-fit: cover;
-    margin-top: 100px
+    margin-top: 100px;
+    
   }
 
   .bienvenida{
-    
+    background-color: #cda2f5;
     font-weight: bold;
     font-size: 1em;
     text-align: center;
@@ -137,7 +138,7 @@ nav ul li ul li a:hover {
 }
        
  .boton:hover{
-    background-color: #bf52eb;
+    background-color: #9437eb;
     color: black;
     border: 1px solid Black
 }
@@ -160,10 +161,10 @@ nav ul li ul li a:hover {
 .cuadro{
     width:350px;
     height:200px;
-    background-color: #b993c9;
+    background-color: #cda2f5;
     margin-right:10px;
     margin-left:10px;
-    border-bottom: 20px solid #bf52eb
+    border-bottom: 20px solid #9437eb
 
 }
 
@@ -180,7 +181,7 @@ nav ul li ul li a:hover {
 }
        
  .boton2:hover{
-    background-color: #bf52eb;
+    background-color: #9437eb;
     color: black;
     border: 1px solid Black
  }
@@ -196,14 +197,14 @@ nav ul li ul li a:hover {
 }
  footer {
     background-color: Black;
-    color:#bf52eb;
+    color:#9437eb;
     width: 100%;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-top: 10px solid #bf52eb
+    border-top: 10px solid #9437eb
   }
   
   
@@ -217,28 +218,4 @@ nav ul li ul li a:hover {
   
   }
   
-  @media screen and (max-width: 600px) {
-    header {
-      justify-content: center;
-    }
-    
-    nav {
-      float: none;
-    }
-    
-    nav ul {
-      display: none;
-    }
-    
-    nav ul li {
-      float: none;
-      width: 100%;
-    }
-    
-    nav ul li a {
-      display: block;
-      text-align: center;
-      font-size: 1.2em;
-      padding: 10px;
-    }
-  }
+ 
