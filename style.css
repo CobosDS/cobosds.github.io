@@ -217,3 +217,28 @@ nav ul li ul li a:hover {
   
   }
   
+  @media screen and (max-width: 600px) {
+    header {
+      justify-content: center;
+    }
+    
+    nav {
+      float: none;
+    }
+    
+    nav ul {
+      display: none;
+    }
+    
+    nav ul li {
+      float: none;
+      width: 100%;
+    }
+    
+    nav ul li a {
+      display: block;
+      text-align: center;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  }
